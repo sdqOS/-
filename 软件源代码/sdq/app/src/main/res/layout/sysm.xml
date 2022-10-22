@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_x="0dp"
+        android:layout_y="57dp"
+        android:text="电话救援: 被动技能(技能介绍: 当你知道下面发生的事情对自己不利, 想快速离场)" />
+
+    <CheckBox
+        android:id="@+id/jj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="138dp"
+        android:layout_y="339dp"
+        android:text="您的认可" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_x="0dp"
+        android:layout_y="146dp"
+        android:text="电量救援: 主动技能(技能介绍: 当你想让别人请客时特别好用)" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_x="0dp"
+        android:layout_y="234dp"
+        android:text="真无电买: 硬核技能(技能介绍: 当电量救援失效后的必杀之技)" />
+
+    <Switch
+        android:id="@+id/cy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="407dp"
+        android:text="秘籍穿越时空回到你案发时间" />
+
+
+
+</AbsoluteLayout>

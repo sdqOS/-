@@ -1,0 +1,46 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="38dp"
+        android:layout_x="136dp"
+        android:layout_y="254dp"
+        android:text="电量救援" />
+
+    <Button
+        android:id="@+id/sm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:layout_x="133dp"
+        android:layout_y="117dp"
+        android:text="使用说明" />
+
+    <Button
+        android:id="@+id/dm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="319dp"
+        android:text="真无电买" />
+
+    <Button
+        android:id="@+id/dh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="185dp"
+        android:layout_x="135dp"
+        android:layout_y="185dp"
+        android:text="电话救援" />
+
+</AbsoluteLayout>
+
